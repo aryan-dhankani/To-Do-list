@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  color :blue;
+  padding-left: 100px;
 }
 
 .App-logo {
@@ -8,8 +10,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .propname {
+    animation: App-logo-spin infinite 10s ease-in-out 10s;
   }
 }
 
@@ -35,4 +37,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.propname {
+  color :olivedrab;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
